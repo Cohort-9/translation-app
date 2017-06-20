@@ -27,4 +27,4 @@ router.get('/logout', (req, res) => {
     res.redirect('/');
 });
 
-module.exports = { authRouter: router };
+module.exports = { authRouter: router }; 
